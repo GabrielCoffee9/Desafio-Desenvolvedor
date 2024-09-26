@@ -1,0 +1,1 @@
+Tempo de execução do código: 0:00:00.001472 (1 milisegundo e 472 microsegundos).

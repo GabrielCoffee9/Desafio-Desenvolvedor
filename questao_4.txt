@@ -1,0 +1,19 @@
+Select para trazer os campos pedidos ordenados por cliente:
+
+SELECT 
+	c.id AS cliente_id,
+	e.codigo,
+    c.razao_social,
+	tpt.nome AS tipo_telefone,
+    t.numero
+FROM 
+    clientes c
+JOIN 
+    estados e ON c.estado_id = e.id
+JOIN 
+    telefones t ON c.id = t.cliente_id
+JOIN
+	tipo_telefone tpt ON t.tipo_telefone = tpt.id
+WHERE 
+    e.codigo = "SP"
+ORDER BY c.id;

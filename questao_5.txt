@@ -1,0 +1,5 @@
+"Quando eles se cruzarem no percurso, qual estará mais próximo da cidade de Ribeirão Preto?"
+
+Quando eles se cruzarem, eles estarão a mesma distância de Ribeirão Preto.
+
+Cheguei no resultado ao pensar sobre o encontro dos dois, logicamente falando se o tempo "parar" durante o encontro dos dois e calcularmos a distancia de cada um (entre ele e a cidade), veremos que se trata da mesma distância para os dois, pois eles estão no mesmo lugar.
